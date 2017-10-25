@@ -1,0 +1,30 @@
+Systems Integration
+Assignment 1
+Author : Yassr Shaar
+Student number : C14328571
+Date : 24/10/2017
+
+Documentation:
+The shell is written in Unix bash and uses python for certain commands such as date and User Details. The purpose of this shell script is to give certain functionality to a user and make some commands easier to use. This shell script provides convinience and provides information for the commands a user can use help.
+Downloading the Shell file and the Python file and place them in the same directory. preferably the home directory of user test 
+
+Then give permision to the shell file using the following command :
+---------------------------------------------
+chmod +x /home/test/ca1
+---------------------------------------------
+
+finally I used this command to allow the shell script to run as default by making it take the place of /bin/bash as the default.
+---------------------------------------------
+sudo usermod -s /home/test/ca1 test
+---------------------------------------------
+
+once the shell script is running use the help command to display all of the commands and a short description of them :
+help - displays available commands
+pw | pwd -  Displays the working Directory
+ifc -  short for ifconfig. Displays Interface Configuration
+dt -  Displays the Date
+ud -  Displays the user information and inode
+hist - Displays command history
+stop -  Ends the shell script and logs the user out
+clear - Clears the screen
+
